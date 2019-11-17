@@ -1,0 +1,28 @@
+{
+    "name": "francois/p4",
+    "description": "Concevoir un framework PHP POO MVC",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "anacarde",
+            "email": "lazare.monin@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/yaml": "^4.3@dev",
+        "twig/twig": "^2.0",
+        "symfony/dotenv": "4.4.x-dev",
+        "symfony/debug": "4.4.x-dev",
+        "symfony/routing": "4.4.x-dev",
+        "symfony/http-foundation": "4.4.x-dev",
+        "symfony/config": "4.4.x-dev",
+        "symfony/http-kernel": "4.4.x-dev"
+    },
+    "autoload" : {
+        "psr-4": {
+            "App\\": "app",
+            "Src\\": "src"
+        }
+    }
+}

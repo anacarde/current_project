@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title> Quelques noms de couleurs </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+        <link rel="shortcut icon" href="/img/logo_mini.ico">
+        <link rel="stylesheet" href="/css/tempStyle.css">
+        <link rel="stylesheet" href="/css/admTempStyle.css">
+        <link rel="stylesheet" href="/css/admin/colFormStyle.css">
+        <link rel="stylesheet" href="/css/admin/colTableStyle.css">
+    </head>
+    <body>
+        <header id="hea-blo">
+            <div id="hea-logo-div">
+                <img src="/img/logo.png" alt="logo-quelques-noms-de-couleur" />
+            </div>              
+            <div id="hea-tit-div">
+                <h1> <span> &lt;&lt; Quelques noms de couleurs &gt;&gt; </span> </h1>
+            </div>
+            <div id="hea-sub-div">
+                <em> Partie administrateur </em>
+            </div>
+        </header>
+        <nav id="hea-nav">
+            <ul id="hea-nav-ul">
+                <li> <button class="nav-butt" id="add-col-butt"> Ajout de couleur </button> </li>
+                <li id="grp-col-li"> 
+                    <button class="nav-butt" id="han-col-butt" disabled> Modification / Suppression de couleur </button>
+                    <ul id="grp-col-ls">
+                        {% for colGrp in colGrpLs %}
+                            <li> <button class="col-grp-butt" data-colGrp="{{ colGrp.frColGrp }}" style="background-color: {{ colGrp.enColGrp }};"> Famille des {{ colGrp.frColGrp }}s </button> </li>
+                        {% endfor %}
+                    </ul>
+                </li>
+                <li> <button id="back-vis-butt" class="nav-butt"> Retour à l'espace visiteur </button> </li>
+            </ul>
+        </nav>
+        <div id="cont-blo">
+        </div>
+        <script src="/js/utils.js"> </script>
+        <script src="/js/admin/admTempJs.js"> </script>
+    </body>
+</html>

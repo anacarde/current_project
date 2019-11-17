@@ -1,0 +1,28 @@
+{% extends "template/visTemplate.html.twig" %}
+
+{% block stylesheet %}
+    <link rel="stylesheet" href="/css/visitor/colModelStyle.css">
+{% endblock %}
+
+{% block script %}
+    {% if serverData == FALSE %}
+        <script src="/js/visitor/gameOneSetColJs.js"> </script>
+    {% endif %}
+    <script src="/js/visitor/gameOneStoColJs.js"> </script>
+{% endblock %}
+
+{% block content %}
+    <div id="col-blo-cont">
+        {% if serverData == TRUE %}
+            {% for color in colSel %}
+                <div class="col-blo">
+                    <div class="col-squ" data-col-name="{{ color.colorName }}" style="background-color: {{ color.colorHexCode }};"> </div>
+                    <input type="text" class="col-inp" />
+                </div>
+            {% endfor %}
+        {% endif %}
+    </div>
+    <div id='lau-butt-div'>
+        <button id="lau-butt" class="next-pag-butt"> Valider mes réponses et lancer le deuxième jeu </button>
+    </div>
+{% endblock %}

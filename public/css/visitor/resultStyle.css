@@ -1,0 +1,94 @@
+#res-blo
+{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px 20px 20px 20px;
+}
+
+#res-note
+{
+  text-align: center;
+  font-size: 2.4em;
+  font-weight: bold;
+}
+
+.res-tit-ln
+{
+  font-size: 1.4em;
+}
+
+#end-ln
+{
+  text-align: center;
+  font-weight: bold;
+}
+
+#red-but-div
+{
+  box-sizing: border-box;
+  text-align: right;
+}
+
+#res-hea
+{
+    text-align: center;
+}
+
+#sco-div
+{
+  background-color: white;
+  border: 1px solid black;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 50px;
+  padding: 8px;
+  font-size: 1.2em;
+}
+
+#sco-div .sco-ln
+{
+  display: inline-block;
+  width: 100px;
+  font-weight: bold;
+}
+
+.err-blo
+{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.err-ln-div
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.err-blo p
+{
+  font-size: 1.2em;
+}
+
+
+.col-squ
+{
+  border: 1px solid black;
+  width: 100px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.col-name
+{
+  font-weight: bold;
+}
+
+.hidden
+{
+  display: none;
+}

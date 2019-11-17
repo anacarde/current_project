@@ -1,0 +1,79 @@
+#col-form-div
+{
+  background-color: white;
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#clo-cro-div
+{
+  height: 50px;
+  text-align: right;
+}
+
+form
+{
+  display: flex;
+  flex-direction: column;
+}
+
+form div
+{
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.flex-rig
+{ 
+  justify-content: flex-start;
+}
+
+.flex-cent
+{
+  justify-content: center;
+}
+
+.inp-lab
+{
+  font-weight: bold;
+  width: 20%;
+}
+
+.inp, select
+{
+  font-size: 1.1em;
+  box-sizing: border-box;
+  padding: 5px;
+  width: 70%;
+  height: 30px;
+}
+
+.inp.error
+{
+  border: 1px solid red;
+  box-shadow: 0 0 5px 1px red;
+}
+
+#col-prev
+{
+  border: 1px solid black;
+  width: 150px;
+  height: 50px;
+}
+
+.inp-err
+{
+  margin-left: 20%;
+  color: red;
+  font-style: italic;
+}
+
+.hidden
+{
+  display: none;
+}
+

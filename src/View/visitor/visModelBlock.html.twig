@@ -1,0 +1,35 @@
+{% extends "template/visTemplate.html.twig" %}
+
+{% block stylesheet %}
+    <link rel="stylesheet" href="/css/visitor/colModelStyle.css">
+{% endblock %}
+
+{% block script %}
+    <script src="/js/visitor/modelJs.js"> </script>
+{% endblock %}
+
+
+{% block content %}
+    <div id='ind-blo'>
+        <p class="main-ind-ln"> <strong> Retenez bien les couleurs et leur nom </strong> </p>
+        <div id="gam-ind-ln">
+            <p> Dans le premier jeu, les mêmes couleurs vont s'afficher dans un ordre aléatoire et ce sera à vous de réécrire leur nom. </p>
+            <p> Dans le deuxième jeu, une couleur à la fois sera affichée et vous aurez 10 seconde par couleur pour répondre. (vous pouvez vous servir des raccourcis clavier "entrée" ou "échap" pour valider ou passer.) </p>
+        </div>
+        <p class="main-ind-ln"> <strong> Lorsque vous êtes prêt, appuyez sur le bouton "lancer le premier jeu" au bas. </strong> </p>
+        <button id="switch-disp-butt"> Masquer les noms </button>
+    </div>
+    <div id="col-blo-cont">
+        {% for color in colSel %}
+            <div class="col-blo">
+                <div class="col-squ" style="background-color: {{ color.colorHexCode }};"> </div>
+                <div class="col-name">
+                    <span> {{ color.colorName }} </span>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <div id='lau-butt-div'>
+        <button id="lau-butt" class="next-pag-butt"> Lancer le premier jeu </button>
+    </div>
+{% endblock %}

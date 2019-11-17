@@ -1,0 +1,36 @@
+{% extends "template/visTemplate.html.twig" %}
+
+{% block stylesheet %}
+    <link rel="stylesheet" href="/css/visitor/resultStyle.css">
+{% endblock %}
+
+{% block script %}
+    <script src="/js/visitor/resultJs.js"> </script>
+{% endblock %}
+
+{% block content %}
+    <div id="res-blo">
+        <p id="res-note"></p>
+        <p id="end-ln" class="res-tit-ln"></p>
+
+        <div id="red-but-div">
+            <button id="red-butt" class="next-pag-butt"> Je veux rejouer, je veux rejouer ! </button>
+        </div>
+        <p id="res-hea" class="res-tit-ln"> <strong> Vos résultats : </strong> </p>
+        <div id="sco-div">
+            <p> <span class="sco-ln"> Jeu n°1 : </span> <span id="gam-on-sco" class="score"></span> </p> 
+            <p> <span class="sco-ln"> Jeu n°2 : </span> <span id="gam-two-sco" class="score"></span> </p> 
+            <p> <span class="sco-ln"> Total : </span> <span id="tot-sco" class="score"></span> </p> 
+            <p> <span class="sco-ln"> Moyenne : </span> <span id="ave-sco" class="score"></span> </p> 
+        </div>
+        <hr>
+        <p class='err-leg-ln'> Premier exercice </p>
+        <div class="err-blo" id="err-blo-1">
+
+        </div>
+        <p class='err-leg-ln'> Deuxième exercice </p>
+        <div class="err-blo" id="err-blo-2">
+
+        </div>
+    </div>
+{% endblock %}

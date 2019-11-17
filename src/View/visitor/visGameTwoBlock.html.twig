@@ -1,0 +1,30 @@
+{% extends "template/visTemplate.html.twig" %}
+
+{% block stylesheet %}
+    <link rel="stylesheet" href="/css/visitor/gameTwoStyle.css">
+{% endblock %}
+
+{% block script %}
+    <script src="/js/visitor/gameTwoJs.js"> </script>
+{% endblock %}
+
+{% block content %}
+    <div id="gam-two-cont">
+        <div id="timer-div">
+            <div id="tim-tube">
+                <div id="tim-sand"> </div> 
+            </div>
+        </div>
+        <div id="resp-box">
+            <div id="resp-inp-div" class="resp-div">
+                <input type="text" id="resp-inp" placeholder="couleur" autofocus/>
+                <p id="end-ln" class="disp-mode hidden"> La partie est terminée </p>
+            </div>
+            <div id="resp-butt-div" class="resp-div">
+                <button id="val-butt"> Valider </button>
+                <button id="pass-butt"> Passer </button>
+                <button id="res-butt" class="hidden next-pag-butt"> Passer aux résultats </button>
+            </div>
+        </div>
+    </div>
+{% endblock %}

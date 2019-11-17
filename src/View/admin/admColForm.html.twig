@@ -1,0 +1,33 @@
+<div id="col-form-div" data-action="{{ action }}" {{ action == "update" ? "data-id=" ~ colUpdInf.id }}>
+    <div id="clo-cro-div">
+        <button id="form-close"> X </button>
+    </div>
+    <form method="POST" action="{{ action == "update" ? "/admin/update" : "/admin/add" }}">
+        <div class="flex-rig">
+            <label for="gro-inp" class="inp-lab"> Groupe: </label>
+            <select id="gro-inp" name="colorGroup"> 
+                <option disabled selected hidden></option>
+                {% for colGrp in colGrpLs %}
+                    <option class="col" value="{{ colGrp.frColGrp }}" {{ action == "update" and colUpdInf.grp == colGrp.frColGrp ? "selected" }}> {{ colGrp.frColGrp }} </option>
+                {% endfor %}
+            </select> 
+        </div>
+        <span id="gro-inp-err" class="inp-err hidden"></span>
+        <div class="flex-rig">
+            <label for="nam-inp" class="inp-lab"> Nom: </label>
+            <input type="text" id="nam-inp" class="inp" name="colorName" value="{{ action == "update" ? colUpdInf.name }}" />
+        </div>
+        <span id="nam-inp-err" class="inp-err hidden"></span>
+        <div class="flex-rig">
+            <label for="hex-inp" class="inp-lab"> Code HEXA: </label>
+            <input type="text" id="hex-inp" class="inp" name="colorHexCode" value="{{ action == "update" ? colUpdInf.hex }}" />
+        </div>
+        <span id="hex-inp-err" class="inp-err hidden"></span>
+        <div class="flex-cent">
+            <div id="col-prev"> </div> 
+        </div>
+        <div class="flex-cent">
+            <input type="submit" id="sub-butt" value="{{ action == "update" ? "Modifier ma couleur" :  "Soumettre ma nouvelle couleur" }}" />
+        </div>
+    </form>
+</div>

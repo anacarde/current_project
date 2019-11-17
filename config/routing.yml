@@ -1,0 +1,67 @@
+index:
+  path: /
+  controller: \Src\Controller\VisitorController::goToIndex
+
+menu:
+  path: /play
+  controller: \Src\Controller\VisitorController::goToMenu
+
+nbSelect:
+  path: /play/sel-col-nb/{filter<[A-Za-z]+>}
+  controller: \Src\Controller\VisitorController::nbColSelect
+
+model:
+  path: /play/model
+  controller: \Src\Controller\VisitorController::goToModel
+
+gameOneByMenu:
+  path: /play/game-one
+  controller: \Src\Controller\VisitorController::goFromMenuToGameOne
+
+gameOneByModel:
+  path: /play/model/game-one
+  controller: \Src\Controller\VisitorController::goFromModelToGameOne
+
+gameTwo:
+  path: /play/game-two
+  controller: \Src\Controller\VisitorController::goToGameTwo
+
+result:
+  path: /play/result
+  controller: \Src\Controller\VisitorController::goToResult
+
+connexion:
+  path: /connexion
+  controller: \Src\Controller\VisitorController::checkConnectInfo
+
+admin:
+  path: /admin
+  controller: \Src\Controller\AdminController::goToAdmin
+
+addForm:
+  path: /admin/form/add
+  controller: \Src\Controller\AdminController::getAddColBlock
+
+updateForm:
+  path: /admin/form/update
+  controller: \Src\Controller\AdminController::getUpdColBlock
+
+colorTable:
+  path: /admin/table/{colGrp<[a-zA-Z]+>}
+  controller: \Src\Controller\AdminController::getColTableBlock
+
+add:
+  path: /admin/add
+  controller: \Src\Controller\AdminController::addAction
+
+delete:
+  path: /admin/delete/{id<[\d]+>}
+  controller: \Src\Controller\AdminController::deleteAction
+
+update:
+  path: /admin/update
+  controller: \Src\Controller\AdminController::updateAction
+
+disconnect:
+  path: /admin/disconnect
+  controller: \Src\Controller\AdminController::disconnectAction

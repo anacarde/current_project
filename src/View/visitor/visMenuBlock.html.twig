@@ -1,0 +1,52 @@
+{% extends "template/visTemplate.html.twig" %}
+
+{% block stylesheet %}
+    <link rel="stylesheet" href="/css/visitor/menuStyle.css">
+{% endblock %}
+
+{% block script %}
+    <script src="/js/visitor/menuJs.js"> </script>
+{% endblock %}
+
+{% block content %}
+    <div>
+        <h2> Menu </h2>
+    </div>
+    <form id="sel-form" action="/play/model" method="post">
+        <div id="grp-opt-div">
+            <div id="col-type-div" class="opt-div">
+                <span class="opt-ind-ln"> Choix des couleurs: </span>
+                <div id="col-ls-opt-div">
+                    <div class="col-sel-opt-div">
+                        <label for="col-fam-opt" class="col-opt-lab"> Par famille </label>
+                        <input type="radio" class="col-opt-but" id="col-fam-opt" name="col-filt" value="fam-filt"/ >
+                        <select id="fam-ls" class="invisible" name="col-fam"> 
+                            <option disabled selected > sélectionner une famille </option>
+                            {% for colGrp in colGrpLs %}
+                                <option class="col-fam-name" value="{{ colGrp.frColGrp }}"> {{ colGrp.frColGrp }} </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="col-sel-opt-div">
+                    <label for="col-rand-opt" class="col-opt-lab"> Aléatoire </label>
+                    <input type="radio" id="col-rand-opt" class="col-opt-but" name="col-filt" value="no-filt" />
+                    </div>
+                </div>
+            </div>
+            <div id="col-nb-div" class="opt-div">
+                <label for="col-nb-inp" class="opt-ind-ln"> Choix du nombre: </label>
+                <input type="text" id="col-nb-inp" name="col-nb" placeholder="Maximum: {{ totColNb }}" value="" />
+            </div>
+            <div id="lev-div" class="opt-div">
+                <span class="opt-ind-ln"> Choix du niveau: </span>
+                <input type="radio" id="app-lev" class="level" name="level"  value="app-lev" hidden/>
+                <label for="app-lev" id="app-lev-lab" class="lev-label"> Apprenti </label>
+                <input type="radio" id="exp-lev" class="level" name="level" value="exp-lev" hidden/>
+                <label for="exp-lev" id="exp-lev-lab" class="lev-label"> Expert </label>
+            </div>
+        </div>
+        <div id="form-sub-div">
+            <input type="submit" id="sub-for" class="next-pag-butt" value="Commencer la partie" />
+        </div>
+    </form>
+{% endblock %}

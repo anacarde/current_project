@@ -1,0 +1,106 @@
+    /* vis_model_css */
+
+#ind-blo
+{
+    position: relative;
+    font-size: 1.2em;
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid gray;
+}
+
+.main-ind-ln
+{
+    text-align: center;
+}
+
+#gam-ind-ln
+{
+    font-style: italic;
+}
+
+#switch-disp-butt
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translateY(100%);
+    background-color: white;
+    font-size: 0.7em;
+    border: 1px solid black;
+    border-radius: 0;
+    width: 170px;
+}
+
+#switch-disp-butt:hover
+{
+    background-color: #e1ff91;
+}
+
+
+#col-blo-cont
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.col-blo
+{
+    display: flex;
+    align-items: center;
+    margin: 30px 20px;
+}
+
+.col-squ
+{
+    border: 1px solid black;
+    width: 100px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.col-name
+{
+    width: 150px;
+    text-align: center;
+}
+
+#ind-ban
+{
+    position: fixed;
+    background-color: white;
+    bottom: 0;
+}
+
+#lau-butt-div
+{
+    text-align: center;
+}
+
+#lau-butt
+{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.invisible
+{
+    visibility: hidden;
+}
+
+    /* vis_game_one_css */
+
+.col-inp
+{
+    font-size: 1em;
+    background-color: #E3F5E3;
+    padding: 0 0 1px 5px;
+    width: 150px;
+    border: none;
+    border-bottom: 1px solid gray;
+}

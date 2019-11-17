@@ -1,0 +1,48 @@
+
+
+#clo-cro-div
+{
+  height: 50px;
+  text-align: right;
+}
+
+table
+{
+  background-color: white;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  border-collapse: collapse;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+   user-select: none;
+}
+
+tbody tr:hover
+{
+  background-color: #c9c6bd;
+}
+
+td, th
+{
+  border: 1px solid black;
+  padding: 10px;
+}
+
+th:first-of-type
+{
+  padding: 0px 30px;
+}
+
+#ici button
+{
+  padding-right:: 10px;
+}
+
+th
+{
+  padding: 10px;
+}

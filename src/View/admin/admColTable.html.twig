@@ -1,0 +1,28 @@
+<div id="col-table-div">
+    <div id="clo-cro-div">
+        <button id="table-close"> X </button>
+    </div>
+    <table data-colgrp="{{ colGrpName.FrColGrp }}">
+        <thead>
+            <tr>
+                <th> Aperçu </th>
+                <th> Nom </th>
+                <th> Code Hexa </th>
+                <th> Action </th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for color in colGrp %}
+            <tr>
+                <td style="background-color: {{ color.colorHexCode }} "> </td>
+                <td> {{ color.colorName }} </td>
+                <td> {{ color.colorHexCode }} </td>
+                <td class="act-td"> 
+                    <button data-id="{{ color.id }}" data-name="{{ color.colorName }}" data-hex="{{ color.colorHexCode }}" class="upd-butt"> Modifier </button>
+                    <button data-id="{{ color.id }}" class="del-butt"> Supprimer </button>
+                </td>
+            </tr>           
+        {% endfor %}
+        </tbody>
+    </table>   
+</div>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title> Quelques noms de couleurs </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+        <link rel="shortcut icon" href="/img/logo_mini.ico">
+        <link rel="stylesheet" href="/css/tempStyle.css">
+        {% block stylesheet %} {% endblock %}
+    </head>
+    <body>
+        <button id="adm-con-butt"> </button>
+        <header id="hea-blo">
+            <div id="hea-logo-div">
+                <img src="/img/logo.png" alt="logo-quelques-noms-de-couleur" />
+            </div>              
+            <div id="hea-tit-div">
+                <h1> <span> &lt;&lt; Quelques noms de couleurs &gt;&gt; </span> </h1>
+            </div>
+            <div id="hea-sub-div">
+                <em> Un site pour apprendre des noms de couleurs</em>
+            </div>
+        </header>
+        <nav id="hea-nav">
+            <ul id="hea-nav-ul">
+                <li> <button id="hom-butt" class="nav-butt"> Accueil </button> </li>
+                <li> <button id="play-butt" class="nav-butt"> Jouer </button> </li>
+                <li> <button id="play-butt" class="nav-butt"> Culture </button> </li>
+            </ul>
+        </nav>
+        <div id="cont-blo">
+        {% block content %} {% endblock %}
+        </div>
+        <div id="adm-con-inner" class="hidden">
+            <div id="adm-con-block">
+                <button id="close-cross"> X </button>
+                <form id="connex-form" method="POST" action="/connexion">
+                    <h4> Administration des couleurs </h4>
+                    <label for="pseudo-inp" id="pseudo-inp-lab" class="pass-inp-lab"> Pseudo : </label>
+                        <input type="password" id="pseudo-inp" class="data-inp" name="pseudo" />
+                    <label for="password-inp" id="pass-inp-lab" class="pass-inp-lab"> Mot de passe : </label>
+                        <input type="password" id="password-inp" class="data-inp" name="password" />
+                    <p id="cont-ln" class="hidden"> Des champs ne sont pas remplis </p>
+                    <p id="con-inf" class="hidden"> </p>
+                    <input type="submit" id="form-sub" value="Confirmer" />
+                </form>
+            </div>
+        </div>
+        <script src="/js/utils.js"> </script>
+        <script src="/js/visitor/visTempJs.js"> </script>
+        {% block script %} {% endblock %}
+    </body>
+</html>

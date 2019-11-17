@@ -1,0 +1,9 @@
+{% extends "template/visTemplate.html.twig" %}
+
+{% block stylesheet %}
+    <link rel="stylesheet" href="/css/errorStyle.css">
+{% endblock %}
+
+{% block content %}
+    <p id="err-msg"> {{ errorMessage }} </p>
+{% endblock %}

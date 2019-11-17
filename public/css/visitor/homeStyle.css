@@ -1,0 +1,95 @@
+
+
+#carousel
+{
+  box-sizing: content-box;
+  position: relative;
+  top: 20px;
+  width: 100%;
+  height: 500px;
+  margin: auto;  
+  overflow: hidden;
+}
+
+.car_butt
+{
+  position: absolute;
+  cursor: pointer;
+  background-color: rgba(250, 250, 250, 0.5);
+  padding: 20px;
+  border-radius: 50%;
+  font-size: 1.7em;
+  z-index: 100;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  transition: font-size, 0.3s;
+}
+
+.car_butt:hover, .car_butt.active
+{
+  font-size: 3em;
+}
+
+#pause_butt
+{
+  right: 0;
+  
+}
+
+.car_arr
+{
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.car_arr:hover
+{
+  transform: translateY(-50%) scale(1.1);
+}
+
+#rig_arr
+{
+    right: 0;
+}
+
+#container
+{
+  position: absolute;
+  display: flex;
+  height: 500px;
+  width: 800%;
+  transition: transform ease-out 1s;
+}
+
+.car_obj
+{
+  box-sizing: border-box;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 12.5%;
+  font-size: 1.6em;
+}
+
+.car_obj p
+{
+  padding-bottom: 20px;
+}
+
+.car_img:not(.no-border)
+{
+  border: 1px solid black;
+  box-shadow: 0 0 5px 0px;
+}
+
+@media all and (max-width: 600px)
+{
+    .car_img img
+    {
+      width: 90vw;
+    }
+}

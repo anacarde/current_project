@@ -1,0 +1,68 @@
+{% extends "template/visTemplate.html.twig" %}
+
+{% block stylesheet %}
+    <link rel="stylesheet" href="/css/visitor/homeStyle.css">
+{% endblock %}
+
+{% block script %}
+    <script src="/js/visitor/homeJs.js"> </script>
+{% endblock %}
+
+{% block content %}
+    <div id="cont_inn">
+        <div id="carousel">
+            <div id="pause_butt" class="car_butt"> || </div>
+            <div id="arr_div">
+                <div id="lef_arr" class="car_arr car_butt"> &lt; </div>
+                <div id="rig_arr" class="car_arr car_butt"> &gt; </div>
+            </div>
+            <div id="container">
+                <div id="car1" class="car_obj">
+                    <p> Bienvenue sur &lt;&lt; Quelques noms de couleurs &gt;&gt; </p>
+                    <div class="car_img no-border">
+                        <img src="img/logo.png" alt="" />
+                    </div>
+                </div>
+                <div id="car2" class="car_obj">
+                    <p> Dans ce jeu, vous allez pouvoir apprendre des noms de couleurs, chouette hein ? </p>
+                </div>
+                <div id="car3" class="car_obj">
+                    <p> Appuyez tout d'abord sur jouer. </p>
+                    <div class="car_img">
+                        <img src="img/playImg.jpg" alt="" />
+                    </div>
+                </div>
+                <div id="car4" class="car_obj">
+                    <p> Vous verrez apparaître un menu de sélection, choisissez vos préférences. </p>
+                    <div class="car_img">
+                        <img src="img/menuImg.jpg" alt="" />
+                    </div>
+                </div>
+                <div id="car5" class="car_obj">
+                    <p> Les couleurs s'affichent. Mémorisez-les bien avant de passer à l'étape suivante. </p>
+                    <div class="car_img">
+                        <img src="img/modelImg.jpg" alt="" />
+                    </div>
+                </div>
+                <div id="car6" class="car_obj">
+                    <p> Premier jeu: remplissez les zones de texte avec le bon nom de couleur. </p>
+                    <div class="car_img">
+                        <img src="img/gameOneImg.jpg" alt="" />
+                    </div>
+                </div>
+                <div id="car7" class="car_obj">
+                    <p> Deuxième jeu : Une seule couleur à la fois, mais vous êtes limité par le temps. </p>
+                    <div class="car_img">
+                        <img src="img/gameTwoImg.jpg" alt="" />
+                    </div>
+                </div>
+                <div id="car8" class="car_obj">
+                    <p> La partie est finie, appréciez (ou pas) votre score. </p>
+                    <div class="car_img">
+                        <img src="img/resultImg.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
