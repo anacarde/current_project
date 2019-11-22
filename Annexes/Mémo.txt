@@ -2,6 +2,8 @@
 //vert amande
 //vert anglais
 
+
+
 //anis
 L’anis (Pimpinella anisum) est une espèce de plantes herbacées de la famille des Apiacées, cultivée comme plante condimentaire pour ses feuilles et ses graines aromatiques. La plante est parfois appelée anis vert. 
 
@@ -132,14 +134,45 @@ L'expression vert impérial est un nom de couleur en usage en France au XIXe si�
 
 
 //jade
+Le jade (chinois simplifié : 玉) est une pierre gemme très dure et tenace employée en ornementation et en joaillerie. Les différentes variétés de jade étaient très employées en Europe à l'époque de la pierre polie (le Néolithique) pour la confection des haches. Les artistes chinois utilisent depuis longtemps cette pierre fine pour réaliser de petits objets d'art. 
 
 
 
 //vert lichen
+L'expression « vert lichen » est attestée en 1877 dans une liste d'une cinquantaine nouveaux noms de couleurs de la mode en 1890
+
+
+
 //lime
+La lime, lime acide ou citron vert est un agrume. C'est le fruit du limettier, arbuste de la famille des Rutacées, dont il existe deux espèces : Citrus latifolia et Citrus aurantiifolia. 
+
+
+
 //malachite
+La malachite est une espèce minérale du groupe des carbonates minéraux et du sous-groupe des carbonates anhydres avec anions étrangers de formule Cu2CO3(OH)2
+
+La malachite a été citée par Pline en 77 ap.J.C. Le nom de ce minéral vient du latin malachites déformation du grec ancien molochē (μολóχη), variante de malachē (μαλάχη), signifiant selon le contexte : « mollesse, voluptueux, efféminé », en allusion non à la couleur mais à la plante surnommée Mauve en raison de la mollesse de ses courbes. 
+
+
+
 //menthe
+Les menthes forment un genre (Mentha) de plantes herbacées vivaces de la famille des Lamiacées (Labiées), sous-famille des Nepetoideae, tribu des Mentheae, sous-tribu des Menthinae. Ce genre comprend de nombreuses espèces, dont beaucoup sont cultivées comme plantes aromatiques et condimentaires, ornementales ou médicinales.
+
+Si les menthes sont connues et appréciées pour leurs qualités aromatiques depuis l'Antiquité, certaines ont acquis une grande valeur économique depuis quelques décennies. Des 18 espèces de menthes actuellement acceptées, seulement trois (Mentha aquatica, M. canadensis, M. spicata) et leurs hybrides (M. x gracilis, M. x piperita, M. x villosonervata) dominent le marché mondial pour la production d'huile essentielle.
+
+
+
 //vert militaire
+La mode du XXIe siècle appelle kaki toutes les couleurs qui rappellent une tenue de combat militaire, y compris le vert armée ou vert militaire, un vert foncé terne.
+
+La couleur kaki est associée aux vêtements militaires. Jusqu'au XIXe siècle, les soldats portaient des uniformes de couleurs vives. Ces couleurs étaient destinées à faire du soldat une personne remarquable parmi le peuple habillé de couleurs ternes ; sur les champs de bataille comme aujourd'hui sur les terrains de sport collectif, la couleur permettait de reconnaître les groupes amis et adversaires.
+
+
+
+
+
+
+
 //mousse
 //olive
 //perroquet
