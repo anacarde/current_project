@@ -3,7 +3,6 @@
 //vert anglais
 
 //anis
-
 L’anis (Pimpinella anisum) est une espèce de plantes herbacées de la famille des Apiacées, cultivée comme plante condimentaire pour ses feuilles et ses graines aromatiques. La plante est parfois appelée anis vert. 
 
 C’est une plante herbacée annuelle ou bisannuelle, mesurant de 50 à 80 cm de haut, à tiges dressées creuses.
@@ -17,29 +16,25 @@ Cette espèce est originaire de l'Est du bassin méditerranéen. Elle s’est la
 L'anis vert fait partie des plantes dont la culture est recommandée dans les domaines royaux par Charlemagne dans le capitulaire De Villis (fin du VIIIe ou début du IXe siècle). 
 
 
-//asperge
 
+//asperge
 L'asperge est une plante de la famille des Asparagaceae originaire de l'est du bassin méditerranéen. Connue des Romains, elle est cultivée comme plante potagère en France depuis le XVe siècle. Le terme désigne aussi ses pousses comestibles, qui proviennent de rhizomes d'où partent chaque année les bourgeons souterrains ou turions qui donnent naissance à des tiges s'élevant entre 1 et 1,5 mètre. 
 
 
 
 //avocat
-
 L'avocat est le fruit de l'avocatier (Persea americana), un arbre de la famille des Lauraceae, originaire du Mexique.
 
 
-//bleu-vert
 
+//bleu-vert
 Les bleu-vert sont les nuances comprises, sur le cercle chromatique, entre le bleu et le vert.
 
 La norme AFNOR X08-010 « Classification méthodique générale des couleurs » définit un champ bleu-vert entre les bleus et les verts-bleus. Elle indique, pour les bleus-verts, une longueur d'onde dominante comprise entre 483 et 490 nanomètres ; les verts-bleus prolongent ce champ jusqu'à 510 nm
 
 
 
-
-
 //vert bouteille
-
 Le vert bouteille est un nom de couleur désignant une teinte sombre de vert tirant sur le jaune.
 
 « L'habillement de l'Anglois figuré dans cette Planche, est une grande redingote de drap vert bouteille », lit-on en 1786. Cette couleur est proche de la variété sombre de vert anglais ; il se peut que le choix du terme dépende des circonstances. Cependant, tout vert sombre n'est pas un vert bouteille : « Le drap qui s'emploie en habits de la dernière mode, est d'un vert-foncé, qui cependant diffère du vert-bouteille », commente le Journal de l'Empire en 1805.
@@ -48,21 +43,81 @@ Le vert bouteille a servi en France pour des pièces d'uniforme, de plusieurs co
 
 
 
-
-
-
-
 //vert céladon
+Le vert céladon est un nom de couleur désignant une nuance de vert.
+
+Le nom de vert céladon est inspiré de celui du personnage Céladon, du roman pastoral L'Astrée d'Honoré d'Urfé, publié en 1610. Le berger Céladon porte des rubans verts. Le roman a été écrit à une période où les produits qingci des ateliers chinois de Longquan gagnaient en popularité en France : ces porcelaines chinoises ont été appelées céladon en référence au roman à la mode. 
+
+
+
 //chartreuse
+La Chartreuse est une liqueur fabriquée à la distillerie d'Aiguenoire à Entre-deux-Guiers en Isère, en plein cœur du Massif de la Chartreuse, sous la supervision des moines de la Grande-Chartreuse. Liqueur au très haut degré d'alcool (55° pour la verte), sa vente est la principale ressource financière des chartreux. 
+
+
+
+
 //vert de chrome
+Le vert oxyde de chrome a été produit par synthèse au début du XIXe siècle. Louis Jacques Thénard donne dans son Traité de chimie de 1813 un procédé de fabrication à partir du chromate de mercure, qui sera par la suite amélioré. Léonor Mérimée mentionne dans son De la peinture à l'huile de 1830 un procédé plus économique.
+
+Proche en teinte du vert émeraude et de la terre verte, il diffère de ces derniers par son opacité.
+
+Il est insoluble dans l'eau. Son pouvoir colorant est faible
+
+
+
 //vert citron
+Les noms de couleur lime ou citron vert désignent des nuances claires de vert tirant sur le jaune, en référence au fruit lime (citron vert). En tant que couleurs, ce sont des adjectifs invariables (« des tons lime », « des tons citron vert »). 
+
+
+
 //vert d'eau
+Le vert d'eau est un nom de couleur qui désigne un vert très clair « rappelant plus ou moins la transparente tonalité des eaux limpides en grandes masses ». Il est d'usage principalement dans l'habillement et la décoration.
+
+L'expression vert d'eau est attestée en français en 1750, dans une description des peintures intérieures d'une maison à vendre.
+
+
 //vert émeraude
+L’émeraude est un minéral, du groupe des silicates, sous-groupe des cyclosilicates, variété de béryl, dont la couleur verte provient de traces de chrome, de vanadium et parfois de fer. L'émeraude est, avec le diamant, le saphir et le rubis, l'une des quatre pierres précieuses. 
+
+
+
 //épinard
+L'épinard (Spinacia oleracea) est une plante potagère, annuelle ou bisannuelle, de la famille des Chenopodiaceae ou des Amaranthaceae selon les classifications. Originaire de l'Iran (il tire son nom du persan āsfanāǧ), il est aujourd'hui cultivé dans toutes les régions tempérées pour ses qualités nutritionnelles.
+
+Il est célébré dans la bande dessinée Popeye comme un légume riche en fer, qui donne sa force au héros, bien qu'en réalité sa teneur en fer ne soit pas particulièrement élevée. 
+
+
+
 //gazon
+Le gazon, appelé aussi pelouse artificielle, ou plus couramment pelouse, est une surface semée densément d'herbes fines sélectionnées, essentiellement des graminées. Il est généralement entretenu et tondu régulièrement pour le maintenir à une faible hauteur et le rendre plus dense. 
+
+
+
 //glauque
+Glauque, du grec γλαυκός [glaukos] (« vert pâle ») par l'intermédiaire du latin glaucus, désigne une couleur claire qui fait partie du champ chromatique des verts grisés.
+
+Dans les années 1980, l'usage de glauque a dérivé vers un sens péjoratif. 
+
+Le terme glauque trouve son origine dans le grec glaukos et le latin glaucus, qui n'ont pas de valeur péjorative : se dit de ce qui est à la fois clair et brillant, la mer, la lune ou des yeux bleu clair. Dans l'Iliade et l'Odyssée, Athéna est qualifiée comme étant Théa Glaukopis Athéné, que l'on traduit par : Athéna, la déesse aux yeux glauques, ou aux yeux pers.
+
+Adjectif, usité depuis le XIIe siècle, signifiant en ancien provençal : qui est d'un vert ou bleu pâle, presque gris qui rappelle la couleur de l’eau de mer avant une tempête.
+
+Au XVIe siècle, une réfection du terme glauke ajoute des éléments à cette définition. Par extension, se dit de ce qui est sans éclat, terne. Une lumière glauque. 
+
+Pour le Répertoire de couleurs des chrysanthémistes, de 1905, les glauques sont des verts blanchâtres ou surtout grisâtres, bien que deux des quatre tons de bleu porcelaine en soient aussi.
+
+
+
 //vert de hooker
+Le vert de Hooker est une invention de l'illustrateur botaniste William Hooker, qui voulait, au début du XIXe siècle, une nuance de vert sombre pour peindre les feuilles des nombreuses plantes qu'il avait à représenter. L'aquarelliste John Sell Cotman popularisa sa recette, et les marchands de couleur la vendirent. Cependant, le bleu de Prusse et la gomme-gute manquent également de permanence; avant la fin du siècle, une nuance semblable et vendue sous le même nom était fabriquée avec des pigments organiques, comme c'est toujours le cas aujourd'hui. 
+
+
+
 //vert impérial
+L'expression vert impérial est un nom de couleur en usage en France au XIXe siècle dans le domaine de la décoration et de la mode pour désigner un vert foncé associé à la décoration de style Empire.
+
+
+
 //jade
 //vert lichen
 //lime
@@ -73,6 +128,13 @@ Le vert bouteille a servi en France pour des pièces d'uniforme, de plusieurs co
 //olive
 //perroquet
 //pin
+
+
+
+
+
+
+
 //pistache
 //poireau
 //vert pomme
