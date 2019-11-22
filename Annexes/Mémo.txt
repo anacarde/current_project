@@ -17,15 +17,23 @@ Cette espèce est originaire de l'Est du bassin méditerranéen. Elle s’est la
 L'anis vert fait partie des plantes dont la culture est recommandée dans les domaines royaux par Charlemagne dans le capitulaire De Villis (fin du VIIIe ou début du IXe siècle). 
 
 
+
+
+
 //asperge
 
 L'asperge est une plante de la famille des Asparagaceae originaire de l'est du bassin méditerranéen. Connue des Romains, elle est cultivée comme plante potagère en France depuis le XVe siècle. Le terme désigne aussi ses pousses comestibles, qui proviennent de rhizomes d'où partent chaque année les bourgeons souterrains ou turions qui donnent naissance à des tiges s'élevant entre 1 et 1,5 mètre. 
 
 
 
+
+
 //avocat
 
 L'avocat est le fruit de l'avocatier (Persea americana), un arbre de la famille des Lauraceae, originaire du Mexique.
+
+
+
 
 
 //bleu-vert
@@ -50,12 +58,42 @@ Le vert bouteille a servi en France pour des pièces d'uniforme, de plusieurs co
 
 
 
-
-
 //vert céladon
+
+Le vert céladon est un nom de couleur désignant une nuance de vert.
+
+Le nom de vert céladon est inspiré de celui du personnage Céladon, du roman pastoral L'Astrée d'Honoré d'Urfé, publié en 1610. Le berger Céladon porte des rubans verts. Le roman a été écrit à une période où les produits qingci des ateliers chinois de Longquan gagnaient en popularité en France : ces porcelaines chinoises ont été appelées céladon en référence au roman à la mode.
+
+Le nom a subsisté, puisque le père Castel le compte parmi les couleurs composées de son Optique des couleurs publiée en 1741, l'estimant équivalent à un mélange de 3 bleu pour 1 jaune.
+
+
+
+
+
+
 //chartreuse
+
+La Chartreuse est une liqueur fabriquée à la distillerie d'Aiguenoire à Entre-deux-Guiers en Isère, en plein cœur du Massif de la Chartreuse, sous la supervision des moines de la Grande-Chartreuse. Liqueur au très haut degré d'alcool (55° pour la verte), sa vente est la principale ressource financière des chartreux. 
+
+
+
+
+
 //vert de chrome
+
+Le vert oxyde de chrome a été produit par synthèse au début du XIXe siècle. Louis Jacques Thénard donne dans son Traité de chimie de 1813 un procédé de fabrication à partir du chromate de mercure, qui sera par la suite amélioré. Léonor Mérimée mentionne dans son De la peinture à l'huile de 1830 un procédé plus économique (PRV).
+
+
+
+
+
 //vert citron
+
+
+
+
+
+
 //vert d'eau
 //vert émeraude
 //épinard
